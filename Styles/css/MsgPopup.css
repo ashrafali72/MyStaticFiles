@@ -1,0 +1,332 @@
+﻿#modalmessage .modal-content {
+    max-width: 500px;
+    margin: 100px auto 0;
+}
+
+#modalmessage .modal-dialog {
+    box-shadow: 0 0 0 #ccc;
+}
+
+#modalmessage button.close {
+    position: relative;
+    z-index: 9999;
+}
+
+.btn-default:hover {
+    background: #0b66a2 !important;
+    color: #fff !important;
+}
+
+.close {
+    color: #fff;
+    opacity: inherit;
+}
+
+button.close {
+    width: 30px;
+    height: 30px;
+    background: #0b66a2;
+    position: relative;
+    position: relative;
+    top: 4px;
+    right: 1px;
+}
+
+.modal-content {
+    border: none !important;
+}
+
+
+.close:focus, .close:hover {
+    opacity: .9;
+    color: #fff;
+}
+
+#msg {
+    font-size: 14px;
+    font-family: arial;
+}
+
+
+/* ********************Unlock Page CSS Start**************************  */
+
+#modal1_unlock .modal-content {
+    max-width: 500px;
+    margin: 100px auto 0;
+}
+
+#modal1_unlock .modal-dialog {
+    box-shadow: 0 0 0 #ccc;
+}
+
+#modal1_unlock button.close {
+    position: relative;
+    z-index: 9999;
+}
+
+.btn-default:hover {
+    background: #0b66a2 !important;
+    color: #fff !important;
+}
+
+.close {
+    color: #fff;
+    opacity: inherit;
+}
+
+button.close {
+    width: 30px;
+    height: 30px;
+    background: #0b66a2;
+    position: relative;
+    position: relative;
+    top: 4px;
+    right: 1px;
+}
+
+.modal-content {
+    border: none !important;
+}
+
+
+.close:focus, .close:hover {
+    opacity: .9;
+    color: #fff;
+}
+
+/*#msg {
+    font-size: 14px;
+    font-family: arial;
+}*/
+
+#modal1_unlock .modal-dialog {
+    box-shadow: 0 0 15px #ccc;
+    max-width: 500px;
+    top: 50%;
+    transform: translate(-50%, -80%);
+    position:fixed;
+    left:50%;
+    box-shadow: 0 0;
+}
+/* ********************Unlock Page CSS End**************************  */
+
+/* ********************Delete Pop up confirmation CSS Start**************************  */
+#modalmessage_delete .modal-content {
+    max-width: 500px;
+    margin: 100px auto 0;
+}
+
+#modalmessage_delete .modal-dialog {
+    box-shadow: 0 0 0 #ccc;
+}
+
+#modalmessage_delete button.close {
+    position: relative;
+    z-index: 9999;
+}
+
+.btn-default:hover {
+    background: #0b66a2 !important;
+    color: #fff !important;
+}
+
+.close {
+    color: #fff;
+    opacity: inherit;
+}
+
+button.close {
+    width: 30px;
+    height: 30px;
+    background: #0b66a2;
+    position: relative;
+    position: relative;
+    top: 4px;
+    right: 1px;
+}
+
+.modal-content {
+    border: none !important;
+}
+
+
+.close:focus, .close:hover {
+    opacity: .9;
+    color: #fff;
+}
+
+
+#msg2 {
+    font-size: 16px;
+    font-family: serif;
+    font-weight: bold;
+}
+/* ********************Delete Pop up confirmation CSS End**************************  */
+
+/*****************Approved Remarks ****************/
+
+#approvedRemarks .modal-content {
+    max-width: 500px;
+    margin: 100px auto 0;
+}
+
+#approvedRemarks .modal-dialog {
+    box-shadow: 0 0 0 #ccc;
+}
+
+#approvedRemarks button.close {
+    position: relative;
+    z-index: 9999;
+}
+
+
+.btn-default:hover {
+    background: #0b66a2 !important;
+    color: #fff !important;
+}
+
+.close {
+    color: #fff;
+    opacity: inherit;
+}
+
+button.close {
+    width: 30px;
+    height: 30px;
+    background: #0b66a2;
+    position: relative;
+    position: relative;
+    top: 4px;
+    right: 1px;
+}
+
+.modal-content {
+    border: none !important;
+}
+
+
+.close:focus, .close:hover {
+    opacity: .9;
+    color: #fff;
+}
+
+#approvedRemarks .modal-body {
+    margin: 10px 0 !important;
+    padding: 0 15px !important;
+}
+#approvedRemarks  textarea {
+    overflow: auto;
+    margin: 5px 0;
+}
+
+/*****************Discard Remarks ****************/
+
+#discardRemarks .modal-content {
+    max-width: 500px;
+    margin: 100px auto 0;
+}
+
+#discardRemarks .modal-dialog {
+    box-shadow: 0 0 0 #ccc;
+}
+
+#discardRemarks button.close {
+    position: relative;
+    z-index: 9999;
+}
+
+.btn-default:hover {
+    background: #0b66a2 !important;
+    color: #fff !important;
+}
+
+.close {
+    color: #fff;
+    opacity: inherit;
+}
+
+button.close {
+    width: 30px;
+    height: 30px;
+    background: #0b66a2;
+    position: relative;
+    position: relative;
+    top: 4px;
+    right: 1px;
+}
+
+.modal-content {
+    border: none !important;
+}
+
+
+.close:focus, .close:hover {
+    opacity: .9;
+    color: #fff;
+}
+
+#discardRemarks .modal-body {
+    margin: 10px 0 !important;
+    padding: 0 15px !important;
+}
+#discardRemarks  textarea {
+    overflow: auto;
+    margin: 5px 0;
+}
+
+
+/*********************************Add pack size *******************************/
+
+#Addpacksize .modal-content {
+    max-width: 500px;
+    margin: 100px auto 0;
+}
+
+#Addpacksize .modal-dialog {
+    box-shadow: 0 0 0 #ccc;
+}
+
+#Addpacksize button.close {
+    position: relative;
+    z-index: 9999;
+}
+
+
+.btn-default:hover {
+    background: #0b66a2 !important;
+    color: #fff !important;
+}
+
+.close {
+    color: #fff;
+    opacity: inherit;
+}
+
+button.close {
+    width: 30px;
+    height: 30px;
+    background: #0b66a2;
+    position: relative;
+    position: relative;
+    top: 4px;
+    right: 1px;
+}
+
+.modal-content {
+    border: none !important;
+}
+
+
+.close:focus, .close:hover {
+    opacity: .9;
+    color: #fff;
+}
+
+#Addpacksize .modal-body {
+    margin: 10px 0 !important;
+    padding: 0 15px !important;
+}
+#Addpacksize  textarea {
+    overflow: auto;
+    margin: 5px 0;
+}

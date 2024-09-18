@@ -1,0 +1,161 @@
+
+body{ font-size:14px; color:#777777; font-family: Open; }
+
+h1, h2, h3, h4, h5, h6, p, img, a, input, select, span, small{-webkit-transition: all 0.5s ease 0s; -moz-transition: all 0.5s ease 0s; transition: all 0.5s ease 0s;}
+
+img{ max-width:100%}
+
+@font-face {
+    font-family: Open;
+    src: url(../fonts/OpenSans-Regular_0.ttf);
+}
+
+@font-face {
+    font-family: Openlight;
+    src: url(../fonts/OpenSans-Light.ttf);
+}
+
+@font-face {
+    font-family: Openbold;
+    src: url(../fonts/OpenSans-Bold_0.ttf);
+}
+
+@font-face {
+    font-family: Opensemibold;
+    src: url(../fonts/OpenSans-Semibold_0.ttf);
+}
+
+
+.followus { font-size:22px; padding-top:0px; padding-right:25px;}
+.followus span { font-size:14px; text-align:right;   }
+.followus span a { display:block ; padding:10px 0px; }
+
+.rightalign{ float:right}
+.lefttalign{ float:left}
+
+.topspace { height:70px;}
+.topmenu{ background-color:#8cd235;  }
+.navbar-default { background:none; border:none; margin-bottom:0px; padding-left:15px; }
+.navbar-default .navbar-nav > li > a { color:#fff; text-transform:uppercase; padding:18px 31px;}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+
+background:#6aab1a; color:#fff;
+
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+   
+ background:#6aab1a; color:#fff;
+}
+
+.navbar-toggle { background-color:#0078be; border-radius:0px; border:0px;}
+.navbar-default .navbar-toggle .icon-bar { background-color:#fff;}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus { background-color:#0078be;}
+
+.banner-cont{ padding:0px; position:relative }
+.banner-cont img{ width:100%;}
+
+h1{ color:#000; font-size:35px;  font-family: openlight; text-align:center; text-transform:uppercase;	}
+p{ font-family: openlight; line-height:23px; color:#777777;}
+
+
+
+.logo{ padding:10px 15px;}
+
+.support h1{ text-align:left}
+
+.features { background-color:#6aab1a; padding-top:30px; padding-bottom:30px;}
+.features h1 {color:#fff;}
+.features p {color:#fff; text-align:center}
+
+.ficon{ width:45px; height:45px; border:1px solid #fff; text-align:center; padding-top:8px; float:left; margin-right:10px; }
+
+
+.whoweare{ padding-top:30px; padding-bottom:30px;}
+.whoweare h1{ text-align:left; margin-bottom:20px;}
+
+.whoweare_rt{ margin-top:80px;}
+.whoweare_rt img{ border:1px solid #d8d8d8; float:left; max-width:210px; margin-right:30px;}
+
+
+.footer{ background-color:#8cd235; padding-top:30px;  padding-bottom:30px; color:#fff; font-family: openlight}
+
+
+@media only screen and (min-width:992px) and (max-width:1280px) {
+	
+	.navbar-default .navbar-nav > li > a { padding:18px 18px; }
+	.topspace { height:60px; }
+	.whoweare_rt{  text-align:right}
+	.whoweare_rt img{margin-bottom:10px; max-width:175px; margin-right:20px; }
+}
+
+
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+	
+	.navbar-default .navbar-nav > li > a { padding:15px 8px; font-size:12.5px }
+	.banner{ top:40px }
+	.support img{  margin-top:100px; }
+	.topspace { height:50px;}
+	.circle_left{ margin-left:8%; }
+	.circle_right{ margin-right:8%; }
+	.sph { padding-top:18px; padding-bottom:18px;}
+	.whoweare_rt{ margin-top:40px; text-align:right}
+	.whoweare_rt img{margin-bottom:10px; float:none; margin-right:0px;}
+}
+
+
+
+@media only screen and (max-width:767px){
+	
+	.rightalign{ float:none; margin-top:0px; text-align:center; margin-bottom:20px; }
+	.navbar-default .navbar-nav > li > a { padding:10px 25px; }
+	.banner{top:30%;}
+	.banner h2{ font-size:20px; line-height:25px; }
+	.banner .btn{ display:none;}
+	.bottom{ display:none;}
+	.support h1 { font-size:25px; margin-top:20px;}
+	.wecan h1{font-size:25px; } 
+	.why h1{  font-size:25px;}
+	.support h1{  font-size:25px;}
+	.features h1{  font-size:25px;}
+	.product h1{  font-size:25px;}
+	.whoweare h1{  font-size:25px;}
+	.join h1{  font-size:25px;}
+	.topspace { height:50px;}
+	.navbar-default {padding-left:0px;}
+	.pro { background-position:right ; padding-top:10px; padding-right:10px;}
+	.left{ width:100%; margin-top:28px;}
+	.right{ width:100%; margin-top:28px;}
+	.spacealign { margin-top:28px;}
+	.sr-white_left { text-align:left; padding-left:15px;  font-size:12px; padding-top:12px; padding-bottom:12px;}  
+	.sr-white_right { float:left;  font-size:12px; padding-top:12px; padding-bottom:12px;}
+	.smallcircle_left { top:26%}
+	.smallcircle_right { left:auto; right:-10px; top:26%} 
+	.circle_left { margin-left:10%; width:45px; height:45px; font-size:18px; margin-top:0px;}
+	.circle_right { margin-right:auto; float:left; margin-left:10%; width:45px; height:45px; font-size:18px; margin-top:0px; } 
+	.whoweare_rt{ margin-top:20px;}
+	.whoweare_rt img{ margin-bottom:10px;  }
+	followus { padding-top:0px; margin-bottom:10px; }
+    .followus span a {
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    display: block;
+    font-size: 16px;
+    margin: auto auto 8px;
+    padding: 10px 0;
+    width: 50%;
+    text-align:center
+
+}
+
+
+@media only screen and (max-width:640px){
+
+}
+
+
